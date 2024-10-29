@@ -1,0 +1,93 @@
+/* Estilos base con Material Design */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5;
+}
+
+/* Header */
+.header {
+  background-color: #3f51b5;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Portfolio */
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+.projects-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.project {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  text-align: center;
+  width: 200px;
+}
+
+/* Botón para agregar proyecto */
+.add-project-button {
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.add-project-button:hover {
+  background-color: #303f9f;
+}
+
+.add-project-button:focus {
+  outline: none;
+  background-color: #1a237e;
+}
+
+
+.material-icons {
+  font-size: 48px;
+  color: #3f51b5;
+}
+
+/* Contenedor de Información Personal y Sobre Mí */
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  margin-top: 30px;
+  gap: 15px;
+}
+
+.personal-info, .about-me {
+  background-color: #e0e0e0;
+  border-radius: 8px;
+  padding: 20px;
+  width: 40%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #3f51b5;
+  color: white;
+}
